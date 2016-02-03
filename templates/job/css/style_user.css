@@ -1,0 +1,368 @@
+/* CSS Document */
+
+label.error
+{
+	color:#F00;
+	padding-left:5px;
+}
+
+.loader
+{
+	background-image:url(../images/loader.white.gif);
+	width:16px;
+	height:16px;
+}
+
+#dle-content a:active, #dle-content a:visited, #dle-content a:link
+{
+	color:#123798;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#dle-content a:hover
+{
+	text-decoration:underline;
+	color:#3262DE;
+}
+
+/*  Vacancy View */
+div.vacancy_title, div.resume_title, .comapnies_title, .stats
+{
+	background-color:#09F;
+	border:2px solid #0CF;
+	color:#FFF;
+	padding:5px;
+	font-weight:bold;
+	text-align:center;
+}
+
+div.vacancy_content, div.resume_content
+{
+	padding:5px;
+	font-size:120%;
+}
+
+td.vacancy, td.resume
+{
+	padding:5px;
+	border:1px solid black;
+	vertical-align:top;
+	text-align:left;
+}
+
+div.vacancy_part, .resume_content td.part
+{
+	font-size:120%;
+	font-weight:bold;
+	color:#036;
+	padding-left:5px;
+}
+
+div.vacancy_content td, div.resume_content td
+{
+	padding:3px;
+	text-align:left;
+}
+
+div.vacancy_content td.value, div.resume_content td.value
+{
+	font-weight:bold;
+}
+
+
+/*Filter*/
+div.filter
+{
+	padding:2px;
+}
+
+div.filter table
+{
+	width:100%;
+}
+
+div.filter table td
+{
+	padding:2px;
+}
+
+div.filter input
+{
+	border:1px solid black;
+	height:14px;
+}
+
+div.filter td.label
+{
+	text-align:right;
+}
+
+
+div.comapnies_content
+{
+	margin-bottom:20px;
+	padding:5px;
+	padding-left:15px;
+	text-align:left;
+	font-size:110%;
+}
+
+div.comapnies_content strong
+{
+	width:250px;
+	display: inline-block;
+}
+
+/* View company*/
+div.comapny_title 
+{
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	text-decoration:underline;
+	display:inline;
+	color:#036;
+}
+
+div.comapny_content 
+{
+	text-align:left;
+	padding:10px;
+	font-size:120%;
+}
+
+div.comapny_content table
+{
+	width:100%;
+}
+
+div.comapny_content td
+{
+	padding:3px;
+}
+
+td.company_logo
+{
+	text-align:center;
+	width:50%;
+	vertical-align:middle;
+}
+
+div.comapny_content td.value
+{
+	font-weight:bold;
+}
+
+div.comapny_content td.part
+{
+	padding-top:10px;
+	font-size:120%;
+	font-weight:bold;
+	color:#006;
+}
+
+div.comapny_vacancies_title 
+{
+	text-align:left;
+	padding:15px 0px 3px 10px;
+	font-size:20px;
+	font-weight:bold;
+	color:#036;
+}
+
+.company_vacancies
+{
+	border:1px black dotted;
+}
+
+.company_vacancies td
+{
+	padding:2px;
+	border-bottom:1px black dotted;
+}
+
+.company_vacancies tr.even
+{
+	background-color:#D6F3FE;
+}
+
+div.comapnies_title {}
+
+div.comapnies_content {}
+
+div.vacancy_add_title, div.resume_add_title, div.company_add_title, .vacancy_search_title {
+	padding:5px;
+	text-decoration:underline;
+	font-size:150%;
+	color:#06C;
+	font-weight:bold;
+	text-align:left;
+}
+
+div.vacancy_add_content input
+{
+	border:1px solid black;
+}
+
+div.vacancy_add_content td
+{
+	padding:3px;
+	font-weight:bold;
+	text-align:left
+}
+
+div.resume_add_content input
+{
+	border:1px solid black;
+}
+
+div.resume_add_content td
+{
+	padding:3px;
+	font-weight:bold;
+	text-align:left;
+}
+
+div.company_add_content {}
+
+div.company_add_content td
+{
+	padding:3px;
+	font-weight:bold;
+}
+
+div.company_add_content input
+{
+	border:1px solid black;
+}
+
+div.vacancy_search_content td
+{
+	padding:3px;
+	font-weight:bold;
+	text-align:left;
+}
+
+div.vacancy_search_content input
+{
+	border:1px solid black;
+}
+
+div.account_menu
+{
+	padding:5px;
+	margin:3px;
+	text-align:center;
+}
+
+div.account_menu span
+{
+	padding:5px;
+	font-weight:bold;
+	color:#000
+}
+
+div.account_menu span:hover
+{
+	background-color:#09C;
+	color:#FFF;
+}
+
+div.account_menu a
+{
+	text-decoration:none;
+	text-transform:none;
+}
+
+.account_vacancy, .account_resume
+{
+	border:1px dashed black;
+}
+
+.account_vacancy td, .account_resume td
+{
+	padding:4px;
+	border-bottom:1px dashed black;
+}
+
+.account_vacancy tr.even, .account_resume tr.even
+{
+	background-color:#F4F4F4;
+}
+
+div.sort_menu
+{
+	padding:10px 0px 10px;
+	margin:3px;
+	font-weight:bold;
+	display: inline-table;
+}
+
+div.sort_menu a
+{
+	margin:5px;
+	padding:2px;
+}
+
+div.main th
+{
+	background-color:#09F;
+	color:#FFF;
+	padding:5px;
+	font-weight:bold;
+	text-align:center;
+}
+
+div.main td
+{
+	padding:4px;
+}
+
+#tabl_vac tr.even, #tabl_res tr.even
+{
+	background-color: #ECFAFF;
+}
+
+.specialty, .city
+{
+	cursor:pointer;
+	vertical-align:top;
+}
+
+.favorites
+{
+	cursor: pointer;
+}
+
+.moder_new
+{
+	background-color:#FCF;
+}
+
+.moder_old
+{
+	background-color:#EEE;
+}
+.block a
+{
+	text-decoration:none;
+	color:#09F;
+}
+
+.block a:hover
+{
+	color:#0CF;
+	text-decoration:underline;
+}
+
+.stats_content
+{
+	text-align:left;
+	padding-left:15px;
+}
+
+#specialty
+{
+    width:350px;
+}

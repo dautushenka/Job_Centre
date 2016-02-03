@@ -1,0 +1,25 @@
+
+Ищет работу  {specialty} ({sphere}) ({url})
+Расположение: {country}/{city}
+Зарплата: {salary}
+Пол: {sex}
+Возраст: {age}
+Телефон: {phone}
+Контактное лицо: {contact_person} 
+E-mail: {email}
+
+
+Тип работы: {work_type}
+График работы: {work_schedule}
+Место работы: {work_place}
+Образование: {education}
+Иностранный язык: {language}
+Студент: {student}
+Опыт работы: {experience}
+
+{description}
+
+Должно проходить модерацию: {moder}
+
+
+Ваш {site_url}

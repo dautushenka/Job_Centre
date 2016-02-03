@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Использование &raquo; Работа на главной сайта &raquo; engine/engine.php &raquo; KALIOSTRO.NET</title>
+<link href="../../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body><script language="javascript">
+		if ((window.name != "content") && (navigator.userAgent.indexOf("Opera") <= -1) )
+		document.write("<center><a href='../../index.html?page=Using/main_page/engine.php.html'>show framing</a></center>")
+		</script>
+<div id='wraper'>
+<div class="header_background">
+	<div class="header_div">
+		<div class="module_name">
+			Job Centre (Биржа труда) <span>v1.1.0</span>
+		</div>
+        <div class="navagation">
+        	Использование &raquo; Работа на главной сайта &raquo; engine/engine.php
+        </div>
+	</div>
+</div>
+<div class="content">
+<!-- Copyright (c) 2007 - 2011 www.kaliostro.net. All rights reserved. # --><div class="action_div">		<b>1.</b> Делаем возможным запуск модуля с сайта<br/>
+		<span class="action_title">Найти</span> (52-54):<br />
+		<textarea cols="auto" rows="1" class="find" readonly="readonly">	default :</textarea>		
+		<span class="action_title">Ниже добавить</span> :<br />
+		<textarea cols="auto" rows="9" class="add" readonly="readonly">/* ----------- Job Centre (Биржа труда) v1.1.0 ----------- */
+if (!$subaction &amp;&amp; !$catalog &amp;&amp; !$year &amp;&amp; !$month &amp;&amp; !$day &amp;&amp; !$newsid &amp;&amp; !$category) 
+{ 
+    include ENGINE_DIR.'/job/job.php'; 
+    $do='job';
+    break; 
+}
+/* ----------- Job Centre (Биржа труда) v1.1.0 ----------- */</textarea></div>
+</div>
+</div>
+<div class="footer">
+<hr />
+Copyright &copy; 2007 - 2011 <a style="color:green" href="http://www.kaliostro.net/">kaliostro</a> . All rights reserved.<!-- Copyright (c) 2007 - 2011 www.kaliostro.net. All rights reserved. # -->
+</div>
+</body>
+</html>

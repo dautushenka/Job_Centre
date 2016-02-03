@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Установка &raquo; .htaccess &raquo; KALIOSTRO.NET</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body><script language="javascript">
+		if ((window.name != "content") && (navigator.userAgent.indexOf("Opera") <= -1) )
+		document.write("<center><a href='../index.html?page=install/.htaccess.html'>show framing</a></center>")
+		</script>
+<div id='wraper'>
+<div class="header_background">
+	<div class="header_div">
+		<div class="module_name">
+			Job Centre (Биржа труда) <span>v1.1.0</span>
+		</div>
+        <div class="navagation">
+        	Установка &raquo; .htaccess
+        </div>
+	</div>
+</div>
+<div class="content">
+<!-- Copyright (c) 2007 - 2011 www.kaliostro.net. All rights reserved. # --><div class="action_div">		<b>1.</b> Делает возможным использование ЧПУ в модуле, если вы не планируете пользоваться данной возможностью можете не проводиьть данные изменения<br/>
+		<span class="action_title">Найти</span> (3):<br />
+		<textarea cols="auto" rows="1" class="find" readonly="readonly">RewriteEngine On</textarea>		
+		<span class="action_title">Ниже добавить</span> :<br />
+		<textarea cols="auto" rows="36" class="add" readonly="readonly"># Job Centre (Биржа труда)
+RewriteRule ^job(\.html)?(/?)+$ index.php?do=job [L]
+RewriteRule ^job/(.+)/print([0-9]+).html$ engine/job/print.php?action=$1&amp;id=$2 [L]
+RewriteRule ^job/vacancies(\.html)?(/?)$ index.php?do=job&amp;action=vacancy [L]
+RewriteRule ^job/vacancy/add(\.html)?(/?)$ index.php?do=job&amp;action=vacancy_add [L]
+RewriteRule ^job/vacancy([0-9]+)(\.html)?(/?)$ index.php?do=job&amp;action=vacancy&amp;id=$1 [L]
+RewriteRule ^job/vacancy/edit([0-9]+)(\.html)?(/?)$ index.php?do=job&amp;action=vacancy_edit&amp;id=$1 [L]
+RewriteRule ^job/vacancy/search(\.html)?(/?)+$ index.php?do=job&amp;action=vacancy_search [L]
+RewriteRule ^job/resumes(\.html)?(/?)$ index.php?do=job&amp;action=resume [L]
+RewriteRule ^job/resume([0-9]+)(\.html)?(/?)$ index.php?do=job&amp;action=resume&amp;id=$1 [L]
+RewriteRule ^job/resume/add(\.html)?(/?)$ index.php?do=job&amp;action=resume_add [L]
+RewriteRule ^job/resume/edit([0-9]+)(\.html)?(/?)$ index.php?do=job&amp;action=resume_edit&amp;id=$1 [L]
+RewriteRule ^job/resume/search(\.html)?(/?)+$ index.php?do=job&amp;action=resume_search [L]
+RewriteRule ^job/company/([0-9]+)-.+/rss.xml$ engine/job/vacancy_rss.php?company_id=$1 [L]
+RewriteRule ^job/company/([0-9]+)-.+/print.html$ engine/job/print.php?action=company&amp;id=$1 [L]
+RewriteRule ^job/companies(\.html)?(/?)$ index.php?do=job&amp;action=company [L]
+RewriteRule ^job/(company.*)/([0-9]+)-.+(\.html)?(/?)$ index.php?do=job&amp;action=$1&amp;id=$2 [L]
+RewriteRule ^job/company/add(\.html)?(/?)$ index.php?do=job&amp;action=company_add [L]
+RewriteRule ^job/account\.html$ index.php?do=job&amp;action=account [L]
+RewriteRule ^job/account/(.+)/page([0-9]+)\.html$ index.php?do=job&amp;action=account&amp;apage=$1&amp;page=$2 [L]
+RewriteRule ^job/account/(.+)\.html$ index.php?do=job&amp;action=account&amp;apage=$1 [L]</textarea></div>
+</div>
+</div>
+<div class="footer">
+<hr />
+Copyright &copy; 2007 - 2011 <a style="color:green" href="http://www.kaliostro.net/">kaliostro</a> . All rights reserved.<!-- Copyright (c) 2007 - 2011 www.kaliostro.net. All rights reserved. # -->
+</div>
+</body>
+</html>

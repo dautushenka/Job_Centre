@@ -1,0 +1,18 @@
+ {name}   ({url})
+
+Расположение: {country}/{city}
+Тип компании: {company_type}
+Организационно-правовая форма: {OPF}
+Дата регистрации компании: {date_register}
+
+{description}
+
+
+Контактное лицо: {contact_person}
+Телефон: {phone}
+Веб-сайт: {site}
+Электронный адрес: {email}
+Физический адрес: {address}
+
+
+Ваш {site_url}

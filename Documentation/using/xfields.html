@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Использование &raquo; Работа с дополнительными полями &raquo; KALIOSTRO.NET</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body><script language="javascript">
+		if ((window.name != "content") && (navigator.userAgent.indexOf("Opera") <= -1) )
+		document.write("<center><a href='../index.html?page=Using/xfields.html'>show framing</a></center>")
+		</script>
+<div id='wraper'>
+<div class="header_background">
+	<div class="header_div">
+		<div class="module_name">
+			Job Centre (Биржа труда) <span>v1.1.0</span>
+		</div>
+        <div class="navagation">
+        	Использование &raquo; Работа с дополнительными полями
+        </div>
+	</div>
+</div>
+<div class="content">
+<!-- Copyright (c) 2007 - 2011 www.kaliostro.net. All rights reserved. # -->После создания дополнительного поля в админке модуля в шаблонах можно использовать следующие теги<br />
+<b>{xfield_<font color='red'>1</font>_title}</b> - Название поля с ID 1;<br />
+<b>{xfield_<font color='red'>1</font>_descr}</b> - Описание поля с ID 1;<br />
+<b>{xfield_<font color='red'>1</font>_value}</b> - Значение поля с ID 1. Используется в шаблонах отображения;<br />
+<b>{xfield_<font color='red'>1</font>_html}</b> -  Форма для заполения поля с ID 1. Используется в шаблоне добавления;<br />
+<br />
+Тег {xfields} Выводит все поля сразу, по полю в строке. Формат<br />
+<b>{xfield_1_title}: {xfield_1_html}</b><br />
+или<br />
+<b>{xfield_1_title}: {xfield_1_value}</b><br />
+<br />
+<br />
+Также в шаблоне отображения можно использовать блок <br />
+<b>[xfield_<font color='red'>1</font>][/xfield_<font color='red'>1</font>]</b><br />
+в кторый можно заключить текс, который будет выводиться только если поле было заполенно
+</div>
+</div>
+<div class="footer">
+<hr />
+Copyright &copy; 2007 - 2011 <a style="color:green" href="http://www.kaliostro.net/">kaliostro</a> . All rights reserved.<!-- Copyright (c) 2007 - 2011 www.kaliostro.net. All rights reserved. # -->
+</div>
+</body>
+</html>

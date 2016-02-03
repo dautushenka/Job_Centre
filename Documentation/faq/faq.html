@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>FAQ &raquo; KALIOSTRO.NET</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body><script language="javascript">
+		if ((window.name != "content") && (navigator.userAgent.indexOf("Opera") <= -1) )
+		document.write("<center><a href='../index.html?page=FAQ/FAQ.html'>show framing</a></center>")
+		</script>
+<div id='wraper'>
+<div class="header_background">
+	<div class="header_div">
+		<div class="module_name">
+			Job Centre (Биржа труда) <span>v1.1.0</span>
+		</div>
+        <div class="navagation">
+        	FAQ
+        </div>
+	</div>
+</div>
+<div class="content">
+<!-- Copyright (c) 2007 - 2011 www.kaliostro.net. All rights reserved. # --><script type="text/javascript">
+var cur_question = 0;
+function ShowAnswer(question_num, a)
+{
+    if (cur_question == question_num)
+    {
+        //hide
+        document.getElementById('answer' + question_num).style.display = 'none';
+        a.className = '';
+        cur_question = 0;
+    }
+    else
+    {
+        if (cur_question)
+        {
+            document.getElementById('answer' + cur_question).style.display = 'none';
+            document.getElementById('question' + cur_question).className = '';
+        }
+        document.getElementById('answer' + question_num).style.display = 'block';
+        a.className = 'FAQ_open_question';
+        //show new
+        cur_question = question_num;
+    }
+}
+</script><div class='FAQ_question'><a id='question1' href='#' OnClick='ShowAnswer(1, this);return false;' >1. После установки на главной вылазит ошибка "Fatal error: Unable to read..."</a></div><div id='answer1' style='display:none' class='FAQ_answer'>Перезалейте файлы на сервер в бинарном или двоичном режиме. Режим передачи данных настраивается в вашем ФТП клиенте<br /><br ><b>Ссылки:</b><br /><a href='http://forum.kaliostro.net/showthread.php?t=339' target='_blank' >http://forum.kaliostro.net/showthread.php?t=339</a><br/ ><a href='http://forum.kaliostro.net/showthread.php?t=450' target='_blank' >http://forum.kaliostro.net/showthread.php?t=450</a><br/ ></div>
+</div>
+</div>
+<div class="footer">
+<hr />
+Copyright &copy; 2007 - 2011 <a style="color:green" href="http://www.kaliostro.net/">kaliostro</a> . All rights reserved.<!-- Copyright (c) 2007 - 2011 www.kaliostro.net. All rights reserved. # -->
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+@charset "windows-1251";
+/* CSS Document */
+
+/* Common */
+label.error
+{
+	color:#F00;
+	padding-left:5px;
+}
+
+/* Company */
+#filter td
+{
+	padding:2px;
+}
+#filter td.title
+{
+	text-align:right;
+}
+#filter td.value
+{
+	text-align:left;
+}
+.even
+{
+	background-color:#f9f9f9;
+}
+.over
+{
+	background-color:#FEFDDE;
+}
+#country td, #city td, #spheres td, #field td
+{
+	padding:5px;
+	border:2px solid #ddd;
+}
+.plus
+{
+	background-image:url(../images/admin/plus.gif);
+	cursor: pointer;
+	width:16px;
+	height:16px;
+}
+
+.minus
+{
+	background-image:url(../images/admin/minus.gif);
+}
+
+.loader
+{
+	background-image:url(../images/loader.white.gif);
+	width:16px;
+	height:16px;
+}
+
+.specialty, .city
+{
+	cursor:pointer;
+	vertical-align:top;
+}
+
+#specialty
+	{
+		width: 400px;
+}
