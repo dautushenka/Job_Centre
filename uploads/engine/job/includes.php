@@ -5,10 +5,7 @@ if(!defined('DATALIFEENGINE'))
   die("Hacking attempt!");
 }
 
-if (!defined('LIC_DOMAIN'))
-{
-    define('LIC_DOMAIN', /*lic*/'vashedelo\.biz'/*/lic*/);
-}
+
 @ini_set('zend.ze1_compatibility_mode', 0);
 
 require(ENGINE_DIR . '/job/functions.php');
